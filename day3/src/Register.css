@@ -1,0 +1,79 @@
+/* You can add this CSS to your project's stylesheet or use inline styles */
+
+/* Container for the form */
+body{
+    background-color: aqua;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    max-height: 276px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    display: flex;
+    
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Log In button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Log In button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Text link */
+  .text-link {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Text link hover effect */
+  .text-link:hover {
+    text-decoration: underline;
+  }
+  .back{
+    /* background-image: url("./image/w\ a\ l\ l\ f\ l\ o\ w\ e\ r\ on\ Instagram_\ “🌿🍃Scrolling\ through\ Pinterest\ and\ this\ beauty\ we\ made\ a\ few\ years\ back\ popped\ up_\ 🍃🌿\ Was\ a\ fun\ weekend\ at\ @windmillsbreak\ for…”.jpeg");
+    width: 100px; */
+    background-color: aqua;
+    height: 100px;
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  overflow: hidden
+  }
